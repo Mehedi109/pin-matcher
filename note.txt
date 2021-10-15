@@ -1,0 +1,6 @@
+1. event : event.target er maddome amra jekhane ba je buttone click kori take dekhai ar event.target.innerText er maddome amra je button e click kori oi button e jaa lekha take ta dekai.jemon 
+
+	document.getElementById('key-pad').addEventListener('click', function (event) {
+    	console.log(event.target.innerText);
+	})
+a=a+7;
